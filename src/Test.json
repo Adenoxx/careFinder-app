@@ -1,0 +1,18 @@
+{
+  "id": 3,
+  "name": "Paelon Memorial Clinic- ikeja",
+  "location": null,
+  "address": "9, Ajao Road Off Adeniyi Jones, Ikeja",
+  "tier_id": 2,
+  "type_id": 2,
+  "phone_number": "09093388792,  0909-360-8138",
+  "state": {
+    "id": 25,
+    "name": "Lagos"
+  },
+  "type": {
+    "id": 2,
+    "name": "Clinic"
+  },
+  "products": ["3012"]
+}

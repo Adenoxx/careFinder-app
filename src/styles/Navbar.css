@@ -1,0 +1,21 @@
+.navbar_class{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-right: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  
+}
+
+.su_button{
+  background-color: #143F7A;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
