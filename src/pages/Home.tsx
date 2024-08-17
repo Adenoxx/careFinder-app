@@ -9,7 +9,7 @@ function Home() {
         <div className="container">
           <div className="header">
             <img
-              src="./src/assets/img/hospital-logo.png"
+              src="img/hospital-logo.png"
               alt="hospital-search-logo"
               height="50"
               width="40"
@@ -36,7 +36,7 @@ function Home() {
           </div>
           <div className="hero-img">
             <img
-              src="./src/assets/img/hos-img.jpeg"
+              src="/img/hos-img.jpeg"
               alt="hospital-building"
               height="500"
               width="800"

@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="footer-1">
               <div className="logo-contacts">
                 <img
-                  src="./src/assets/img/hospital-logo.png"
+                  src="/img/hospital-logo.png"
                   alt="hospital-search-logo"
                   height="50"
                   width="40"
@@ -23,7 +23,7 @@ const Footer = () => {
                 <h4>Contact Us</h4>
                 <address>
                   <img
-                    src="./src/assets/svg/loc.svg"
+                    src="/svg/loc.svg"
                     className="loc"
                     alt="location icon"
                   />
@@ -48,16 +48,16 @@ const Footer = () => {
           </div>
           <div className="social-icons">
             <span>
-              <img src="./src/assets/svg/instagram.svg" />
+              <img src="/svg/instagram.svg" />
             </span>
             <span>
-              <img src="./src/assets/svg/facebook.svg" />
+              <img src="/svg/facebook.svg" />
             </span>
             <span>
-              <img src="./src/assets/svg/whatsapp.svg" />
+              <img src="/svg/whatsapp.svg" />
             </span>
             <span>
-              <img src="./src/assets/svg/linkedin.svg" />
+              <img src="/svg/linkedin.svg" />
             </span>
           </div>
         </div>
@@ -71,7 +71,7 @@ const Footer = () => {
           <div className="footer-links">
             <ul className="links">
               <li>
-                <a href="#">Terms</a>
+                <a href="#">Terms </a>
               </li>
 
               <li>
