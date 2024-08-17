@@ -30,14 +30,14 @@ const Footer = () => {
                   59, Ademayowa Street, ChiamakaVille, Lagos, Nigeria
                   <br />
                   <img
-                    src="./src/assets/svg/call.svg"
+                    src="/svg/call.svg"
                     className="call"
                     alt="telephone icon"
                   />
                   +234-707-174-6185
                   <br />
                   <img
-                    src="./src/assets/svg/mail.svg"
+                    src="/svg/mail.svg"
                     className="mail"
                     alt="email icon"
                   />
