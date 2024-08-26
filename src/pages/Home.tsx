@@ -1,6 +1,7 @@
 import "../styles/Home.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -32,7 +33,9 @@ function Home() {
               With just a click.....
             </p>
             <br></br>
-            <button className="action">Find Hospitals</button>
+            <Link to="/hospitalSearch">
+              <button className="action">Find Hospitals</button>
+            </Link>
           </div>
           <div className="hero-img">
             <img

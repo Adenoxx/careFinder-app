@@ -1,0 +1,55 @@
+.hospital-search {
+   height: 100vh;
+   margin-top: 40px;
+   padding: 2em;
+}
+
+.hero-txt {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.search-div {
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: absolute; */
+  
+}
+
+.search_1{
+  height: 50px;
+  width: 450px;
+  border-radius: 50px;
+  border: 1px solid #444;
+  outline: none;
+  padding-left: 15px;
+  /* margin-left: 20px; */
+}
+
+
+
+.search_butt {
+ padding: 10px 30px;
+ border-radius: 20px;
+ outline: none;
+ border: none;
+ background-color: #143f7a;
+ color: #fff;
+ font-size: 15px;
+}
+
+.hospital-card {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 400px;
+  height: 150px;
+  margin-left: 20px;
+  padding: 10px;
+  position: absolute;
+}
+
+
+.loc {
+  position: relative;
+}

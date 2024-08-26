@@ -1,3 +1,31 @@
+import React from "react";
+import "../styles/HospitalSearch.css";
+
+const HospitalSearch = () => {
+  return (
+    <div className="hospital-search">
+      <h2 className="hero-txt">Explore Hospitals Near You</h2>
+      <div className="search-div">
+        <div>
+          <input type="search" className="search_1" />
+        </div>
+        <div className="butt-container">
+          <button className="search_butt">Search</button>
+        </div>
+      </div>
+      <div className="hospital-card">
+        <h3>First City Hospital</h3>
+        <img src="svg/dark-loc-icon.svg" alt="location-icon" className="loc" />
+        <p>17, Bamidele Street, Osapa London, Lekki, Ibeju-Lekki</p>
+        <img src="svg/dark-call-icon.svg" alt="call-icon" className="" />
+        <p>08173480926</p>
+      </div>
+    </div>
+  );
+};
+
+export default HospitalSearch;
+
 // import { useState, useEffect } from "react";
 // import axios from "axios";
 // import "../styles/Providers.css";
@@ -46,9 +74,6 @@
 //     });
 //     setFilteredProviders(filtered);
 //   }, [searchInput, providers]);
-
-  
-
 
 //   return (
 //     <>
